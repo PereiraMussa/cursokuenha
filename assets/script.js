@@ -209,8 +209,8 @@ function showResult(){
 
   // Personalised WA link
   const waMsg=encodeURIComponent(`Olá HDMZN-10! Sou ${name} e acabei de fazer o quiz. Quero começar a faturar online! 🇲🇿🔥`);
-  document.getElementById('res-cta-link').href=`https://wa.me/258833928376?text=${waMsg}`;
-  document.querySelector('.wa-float').href=`https://wa.me/258833928376?text=${waMsg}`;
+  document.getElementById('res-cta-link').href=`https://wa.me/258862578089111?text=${waMsg}`;
+  document.querySelector('.wa-float').href=`https://wa.me/258862578089111?text=${waMsg}`;
 
   const subs=[
     'Começar com 5K a 15K MT é uma excelente meta! Com o nosso método vais chegar lá em semanas.',
