@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>HDMZN-10 — Fatura +60.000MT/mês com o Telemóvel 🇲🇿</title>
+<meta name="description" content="Descobre a estratégia exacta que iniciantes em Moçambique estão a usar para faturar +60.000 MT/mês só com o telemóvel.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<!-- STYLE CSS -->
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- LOADING SCREEN -->
+<div id="loader">
+  <div class="loader-logo"><i class="fa-solid fa-bolt"></i> HDMZN-10</div>
+  <div class="loader-bar"><div class="loader-fill" id="lf"></div></div>
+  <div class="loader-txt" id="lt">A preparar a tua oportunidade...</div>
+</div>
+
+<div id="overlay"></div>
+<div id="ambient"></div>
+<div id="pts"></div>
+
+<!-- ═══════════════════════════════════
+     PAGE 1 — LANDING
+═══════════════════════════════════ -->
+<div class="page active" id="page-landing">
+
+  <!-- STICKY HEADER -->
+  <div class="sticky-header">
+    <div class="sh-brand"><i class="fa-solid fa-bolt"></i> HDMZN-10</div>
+    <button class="sh-cta" onclick="startQuiz()">
+      <i class="fa-solid fa-rocket"></i> Começar Agora
+    </button>
+  </div>
+
+  <div class="w">
+
+    <!-- HERO -->
+    <div class="hero">
+      <div class="stars-badge">
+        <span class="s">★★★★★</span>
+        &nbsp;+300 moçambicanos já começaram
+      </div>
+
+      <h1 class="headline" id="headline-txt">
+        Transforma o teu celular numa<br>
+        <span class="accent" id="tw-span"></span><span class="tw-cursor" id="tw-cur"></span>
+      </h1>
+
+      <p class="subtitle">
+        Descobre a estratégia exacta que iniciantes em Moçambique estão a usar para faturar
+        <strong>+60.000 MT/mês</strong> — só com o telemóvel 🇲🇿
+      </p>
+    </div>
+
+    <!-- PROOF IMAGE -->
+    <div class="proof-wrap">
+      <img class="proof-img"
+        src="https://storage.googleapis.com/gpt-engineer-file-uploads/oKvNkGcqWiRrT53nU0PJJTjQD6m2/social-images/social-1771684386276-file_000000006d9071f590b88a48c049ac66.webp"
+        alt="Prova social — resultados reais"
+        onerror="this.style.display='none';document.querySelector('.proof-fallback').style.display='flex';"
+      >
+      <div class="proof-fallback">
+        <i class="fa-solid fa-money-bill-trend-up" style="font-size:46px;color:var(--gold)"></i>
+        <div style="font-size:34px;font-weight:900;color:var(--gold)">60.000 MT</div>
+        <div style="font-size:12px;color:var(--text2);text-align:center;padding:0 20px">Resultado real de alunos em Moçambique</div>
+      </div>
+      <div class="proof-overlay">
+        <div class="proof-badge"><i class="fa-solid fa-circle-check"></i> Resultado Verificado</div>
+        <div class="proof-amount">+60.000 MT<span style="font-size:16px;font-weight:700;opacity:.75">/mês</span></div>
+        <div class="proof-sub">Dinheiro a cair em poucos dias de trabalho</div>
+      </div>
+    </div>
+
+    <div class="proof-label">
+      <i class="fa-solid fa-chart-line"></i>
+      Resultado real — dinheiro a cair em poucos dias!
+    </div>
+
+    <!-- VAGAS RESTANTES -->
+    <div class="vagas-bar">
+      <div class="vagas-top">
+        <div class="vagas-label">
+          <span class="dot"></span>
+          <i class="fa-solid fa-fire-flame-curved"></i>
+          Vagas limitadas
+        </div>
+        <div class="vagas-count">Restam <span id="vagas-n" style="color:var(--red)">8</span> vagas</div>
+      </div>
+      <div class="vagas-track">
+        <div class="vagas-fill"></div>
+      </div>
+    </div>
+
+    <!-- FEATURES -->
+    <div class="feat-grid">
+      <div class="feat">
+        <div class="feat-icon fi-gold"><i class="fa-solid fa-fire-flame-curved"></i></div>
+        Começar do zero e vender todos os dias?
+      </div>
+      <div class="feat">
+        <div class="feat-icon fi-green"><i class="fa-solid fa-coins"></i></div>
+        Fazer a tua 1ª venda em 5 dias?
+      </div>
+      <div class="feat">
+        <div class="feat-icon fi-purple"><i class="fa-solid fa-mobile-screen"></i></div>
+        Ganhar dinheiro só com o telemóvel?
+      </div>
+      <div class="feat">
+        <div class="feat-icon fi-red"><i class="fa-solid fa-sack-dollar"></i></div>
+        Faturar +60.000 MT/mês?
+      </div>
+    </div>
+
+    <!-- HOW IT WORKS -->
+    <div class="how">
+      <div class="how-title"><i class="fa-solid fa-map-pin"></i> Como Funciona</div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">1</div>
+          <div class="step-body">
+            <div class="step-title">Responde ao Quiz</div>
+            <div class="step-desc">2 minutos para analisarmos o teu perfil e descobrirmos a melhor estratégia para ti.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">2</div>
+          <div class="step-body">
+            <div class="step-title">Acedes ao Método</div>
+            <div class="step-desc">Recebes o método completo + scripts de vendas prontos para usar no WhatsApp.</div>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-num">3</div>
+          <div class="step-body">
+            <div class="step-title">Fazes a 1ª Venda</div>
+            <div class="step-desc">Com mentoria directa, a maioria dos alunos faz a primeira venda nos primeiros 5 dias.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TESTIMONIALS -->
+    <div class="testis">
+      <div class="testis-title"><i class="fa-solid fa-comment-dots"></i> Alunos Reais</div>
+      <div class="testis-scroll">
+
+        <div class="testi">
+          <div class="testi-stars">★★★★★</div>
+          <div class="testi-text">"Comecei sem saber nada de vendas. Em <strong>4 dias fiz a minha 1ª venda</strong> de 3.500 MT. Agora já sou consistente todo mês!"</div>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:linear-gradient(135deg,#F5A623,#FF6B35)">M</div>
+            <div>
+              <div class="testi-name">Marcos T.</div>
+              <div class="testi-loc"><i class="fa-solid fa-location-dot"></i> Maputo</div>
+              <div class="testi-earn"><i class="fa-solid fa-arrow-trend-up"></i> +45.000 MT/mês</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi">
+          <div class="testi-stars">★★★★★</div>
+          <div class="testi-text">"Era estudante sem renda. Agora <strong>pago a minha própria propina</strong> e ainda sobra. O CJAYMM-17 muda vidas mesmo!"</div>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:linear-gradient(135deg,#00C896,#0095FF)">A</div>
+            <div>
+              <div class="testi-name">Anita V.</div>
+              <div class="testi-loc"><i class="fa-solid fa-location-dot"></i> Beira</div>
+              <div class="testi-earn"><i class="fa-solid fa-arrow-trend-up"></i> +28.000 MT/mês</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testi">
+          <div class="testi-stars">★★★★★</div>
+          <div class="testi-text">"Duvidei no início. Mas em <strong>2 semanas já tinha 62.000 MT</strong> na conta. Nunca imaginei que o telemóvel fazia isso!"</div>
+          <div class="testi-author">
+            <div class="testi-avatar" style="background:linear-gradient(135deg,#7241FF,#F5A623)">J</div>
+            <div>
+              <div class="testi-name">João M.</div>
+              <div class="testi-loc"><i class="fa-solid fa-location-dot"></i> Nampula</div>
+              <div class="testi-earn"><i class="fa-solid fa-arrow-trend-up"></i> +62.000 MT/mês</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- BIO -->
+    <div class="bio-card">
+      <div class="bio-avatar">HD</div>
+      <div class="bio-text">
+        Eu sou o <strong>HDMZN-10</strong>. Já ajudei <strong>+50 pessoas comuns a faturar mais de 60 mil meticais por mês</strong>, começando do absoluto zero. Agora é a tua vez.
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="cta-label">
+      <i class="fa-solid fa-hand-point-down"></i>
+      Responde ao quiz e descobre como começar esta semana
+    </div>
+
+    <div class="cta-wrap">
+      <div class="pulse-r"></div>
+      <div class="pulse-r2"></div>
+      <button class="cta-btn" id="main-cta" onclick="startQuiz()">
+        <i class="fa-solid fa-bolt"></i>
+        QUERO COMEÇAR AGORA
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <div class="cta-note">
+      <i class="fa-solid fa-lock"></i> Quiz de 2 min &nbsp;•&nbsp;
+      <i class="fa-solid fa-shield-halved"></i> 100% Gratuito &nbsp;•&nbsp;
+      <i class="fa-solid fa-eye-slash"></i> Privado
+    </div>
+
+    <div class="scroll-hint">
+      <span>Desliza para ver mais</span>
+      <i class="fa-solid fa-chevron-down scroll-arrow"></i>
+    </div>
+
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════
+     PAGE 2 — QUIZ
+═══════════════════════════════════ -->
+<div class="page" id="page-quiz">
+  <div class="sticky-header">
+    <div class="sh-brand"><i class="fa-solid fa-bolt"></i> HDMZN-10</div>
+    <button class="sh-cta" onclick="showPage('page-landing')" style="background:var(--card);color:var(--text2);box-shadow:none;border:1px solid var(--border);">
+      <i class="fa-solid fa-xmark"></i> Sair
+    </button>
+  </div>
+  <div class="w">
+  <div class="quiz-wrap">
+
+    <div class="progress-row">
+      <div class="progress-bar">
+        <div class="progress-fill" id="pf" style="width:0%"></div>
+      </div>
+      <div class="progress-lbl" id="pc">1 / 6</div>
+    </div>
+
+    <div id="qc"></div>
+
+    <div class="quiz-nav">
+      <button class="btn-back" id="btn-back" onclick="prevQ()">
+        <i class="fa-solid fa-arrow-left"></i>
+      </button>
+      <button class="btn-next" id="btn-next" onclick="nextQ()">
+        Continuar &nbsp;<i class="fa-solid fa-arrow-right"></i>
+      </button>
+    </div>
+
+  </div>
+  </div>
+</div>
+
+
+<!-- ═══════════════════════════════════
+     PAGE 3 — RESULT
+═══════════════════════════════════ -->
+<div class="page" id="page-result">
+  <div class="sticky-header">
+    <div class="sh-brand"><i class="fa-solid fa-bolt"></i> HDMZN-10</div>
+    <div style="font-size:11px;font-weight:700;color:var(--green);display:flex;align-items:center;gap:5px;">
+      <i class="fa-solid fa-circle-check"></i> Quiz Completo!
+    </div>
+  </div>
+  <div class="w">
+  <div class="result-wrap">
+
+    <div class="result-icon"><i class="fa-solid fa-bullseye"></i></div>
+
+    <h2 class="res-title">
+      Perfeito, <span class="accent-g" id="uname">amigo</span>! 🎉
+    </h2>
+    <p class="res-sub" id="rsub">
+      O teu perfil é ideal para começar a faturar online. Com a nossa metodologia, podes fazer a tua 1ª venda em menos de 5 dias — mesmo partindo do zero!
+    </p>
+
+    <!-- SCORE -->
+    <div class="score-card">
+      <div class="score-top">
+        <div class="score-lbl"><i class="fa-solid fa-chart-simple"></i> Potencial detectado</div>
+        <div class="score-pct" id="spct">0%</div>
+      </div>
+      <div class="score-track">
+        <div class="score-bar" id="sb"></div>
+      </div>
+    </div>
+
+    <!-- INCLUDES -->
+    <div class="includes-card">
+      <div class="inc-heading"><i class="fa-solid fa-gift"></i> O que recebes hoje</div>
+      <div class="inc-item">
+        <div class="inc-chk"><i class="fa-solid fa-check"></i></div>
+        <span>Método completo de vendas online com telemóvel</span>
+      </div>
+      <div class="inc-item">
+        <div class="inc-chk"><i class="fa-solid fa-check"></i></div>
+        <span>Scripts prontos para fechar vendas no WhatsApp</span>
+      </div>
+      <div class="inc-item">
+        <div class="inc-chk"><i class="fa-solid fa-check"></i></div>
+        <span>Mentoria directa com HDMZN-10</span>
+      </div>
+      <div class="inc-item">
+        <div class="inc-chk"><i class="fa-solid fa-check"></i></div>
+        <span>Grupo exclusivo de alunos 🇲🇿</span>
+      </div>
+      <div class="inc-item">
+        <div class="inc-chk"><i class="fa-solid fa-check"></i></div>
+        <span>Suporte 24/7 via WhatsApp</span>
+      </div>
+    </div>
+
+    <!-- URGENCY -->
+    <div class="urgency">
+      <div class="urgency-ttl">
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        Atenção — Vagas Limitadas!
+      </div>
+      <div class="urgency-txt">
+        Esta oferta expira em breve. As vagas para <strong>mentoria directa</strong> estão quase esgotadas!
+      </div>
+      <div class="countdown">
+        <div class="cd"><span class="cd-n" id="cdh">23</span><div class="cd-l"><i class="fa-regular fa-clock"></i> Horas</div></div>
+        <div class="cd"><span class="cd-n" id="cdm">59</span><div class="cd-l">Min</div></div>
+        <div class="cd"><span class="cd-n" id="cds">59</span><div class="cd-l">Seg</div></div>
+      </div>
+    </div>
+
+    <!-- WA CTA -->
+    <a href="#" id="res-cta-link" target="_blank" rel="noopener noreferrer" class="res-cta">
+      <i class="fa-brands fa-whatsapp" style="font-size:22px"></i>
+      QUERO COMEÇAR AGORA
+    </a>
+
+    <div class="res-note">
+      <i class="fa-solid fa-lock"></i> 100% Seguro &nbsp;•&nbsp;
+      <i class="fa-solid fa-shield-halved"></i> Sem spam &nbsp;•&nbsp;
+      <i class="fa-solid fa-users"></i> Grupo exclusivo
+    </div>
+
+  </div>
+  </div>
+</div>
+
+
+<!-- WHATSAPP FLOAT -->
+<a href="https://www.contate.me/258833928376" target="_blank" rel="noopener noreferrer"
+   class="wa-float" aria-label="Fala connosco no WhatsApp">
+  <div class="wa-pulse"></div>
+  <div class="wa-pulse2"></div>
+  <div class="wa-btn">
+    <i class="fa-brands fa-whatsapp"></i>
+  </div>
+  <div class="wa-tooltip"><i class="fa-solid fa-comment"></i> Fala connosco!</div>
+</a>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
